@@ -1,0 +1,99 @@
+/* Full Section Container */
+.ProductSection-container {
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto; 
+  background-color: #f8fbff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Centered Heading */
+.ProductSection-title {
+  font-size: 50px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* Cross Icon beside the Title */
+.Cross-icon {
+  height: 25px;
+}
+
+/* Grid Layout for Content */
+.ProductSection-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  align-items: center;
+  gap: 40px;
+}
+
+/* Left Side - Content */
+.ProductSection-content {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 100px;
+  line-height: 1.6; 
+  
+}
+
+/* Image on the Right */
+.ProductSection-image {
+  text-align: right;
+  padding: 100px;
+}
+
+/* "Explore Our Products" Section */
+.ProductSection-explore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.Explore-Our-Products-img {
+  height: 50px;
+}
+
+/* Scrollable Product Section */
+.ProductSection-scrollable {
+  border: 2px solid #000000; /* Creates the line box effect */
+  width: 1462;
+  height: 226;
+  top: 3996px;
+  left: 55px;
+  border-radius: 10px;
+  border-width: 1px;
+  
+}
+
+/* Product Cards Wrapper */
+.product-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 20px;
+  padding: 10px;
+}
+
+/* Individual Product Card */
+.product-card {
+  flex: 0 0 auto; /* Ensures cards stay in a row */
+  width: 300px; /* Adjust width */
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+
+
+

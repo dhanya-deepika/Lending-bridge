@@ -1,0 +1,102 @@
+.HighlightsSection {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  /* Title */
+  .Highlights-title {
+    width: 264;
+    height: 48;
+    top: 4741px;
+    left: 996px;
+     
+    font-family: League Spartan;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 46px;
+    letter-spacing: 0%;
+
+  }
+  
+  /* Highlights Grid */
+  .Highlights-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .Highlight-item {
+    width: 264;
+    height: 48;
+    top: 4741px;
+    left: 996px;
+    
+  }
+  .Highlight-item img {
+    width: 297;
+    height: 198;
+    top: 4513px;
+    left: 980px;
+    
+  }
+  
+  .Affiliations-container {
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc; /* Add bottom border */
+    padding-top: 20px;
+    padding-bottom: 20px; /* Adjust spacing */
+    width: 100vw; /* Make it span full width */
+    margin-left: -50vw; /* Shift left to cover full screen */
+    left: 50%;
+    position: relative; /* Ensure proper alignment */
+}
+
+  .Affiliations-logos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+  }
+  
+  .Affiliations-logos img {
+    height: 40px;
+  }
+  
+  /* Awards Carousel */
+  .Awards-container {
+    margin-top: 40px;
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Awards-carousel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .Awards-card {
+    background: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .carousel-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  

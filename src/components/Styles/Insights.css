@@ -1,0 +1,236 @@
+/* Insights Section */
+.insights-section {
+  padding: 4rem 2rem;
+  background: white;
+  position: relative;
+}
+
+/* Title */
+.insights-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+/* Wrapper */
+.insights-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* Left Text Section */
+.insights-text {
+  width: 25%;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.explore-btn {
+  background-color: #4762ad;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.explore-btn:hover {
+  background-color: #4762ad;
+}
+
+/* Background Elements */
+.dots-bg {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  width: 80px;
+  height: 80px;
+  background: url('../../Assets/dots-pattern.png'); /* Replace with your dot pattern */
+}
+
+.blue-bg {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  width: 60%;
+  height: 70%;
+  background-color: #4762ad;
+  border-radius: 15px;
+  z-index: -1;
+}
+
+/* Insights Container */
+.insights-container {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  width: 70%;
+}
+
+.insight-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+}
+
+.insight-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.insight-content {
+  padding: 1rem;
+}
+
+.insight-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.insight-date {
+  font-size: 0.9rem;
+  color: gray;
+  margin-bottom: 0.5rem;
+}
+
+.insight-description {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.read-more-btn {
+  font-weight: bold;
+  text-decoration: none;
+  color: #4762ad;
+  cursor: pointer;
+}
+
+.read-more-btn:hover {
+  text-decoration: underline;
+}
+
+/* Navigation Buttons */
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.nav-btn {
+  background: #4762ad;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem; /* Space between columns */
+    background-color: #fffffffd; /* Light background */
+  }
+  
+  /* Responsive image */
+  .about-background-image-container img {
+    width: 100%; /* Make the image responsive */
+    max-width: 531px; /* Prevent it from being too large */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Text container styling */
+  .about-section-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  /* Heading & paragraph styles */
+  .about-section-text-container h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  .about-section-text-container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    .about-section-container {
+        grid-template-columns: 1fr; /* Stack items vertically */
+        text-align: center;
+        padding: 1.5rem;
+    }
+  
+    .about-background-image-container img {
+        max-width: 80%; /* Make the image smaller */
+        margin: 0 auto; /* Center it */
+    }
+  
+    .about-section-text-container {
+        align-items: center; /* Center text */
+        padding: 1rem;
+    }
+  }
+  
+  /* Mobile View */
+  @media (max-width: 377px) {
+    .about-section-container {
+        gap: 1rem; /* Reduce space */
+        padding: 1rem;
+    }
+  
+    .about-section-text-container h2 {
+        font-size: 1.8rem; /* Slightly smaller text */
+    }
+  
+    .about-section-text-container p {
+        font-size: 1rem;
+    }
+  }
+  
+  /* Extra Small Screens */
+  @media (max-width: 480px) {
+    .about-section-container {
+        padding: 0.5rem;
+    }
+  
+    .about-section-text-container h2 {
+        font-size: 1.5rem;
+    }
+  
+    .about-section-text-container p {
+        font-size: 0.9rem;
+    }
+  }
+  
+.nav-btn {
+  background: #4762ad;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem; /* Space between columns */
+  background-color: #fffffffd; /* Light background */
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background: #1434b3;
+}

@@ -1,0 +1,71 @@
+/* Newsletter Section */
+.newsletter-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the left */
+    padding: 4rem 5rem;
+    background-color: #f0f6ff; /* Light blue background */
+    position: relative;
+}
+
+/* Newsletter Box */
+.newsletter-box {
+    background-color: #4762ad; /* Tailwind blue-700 */
+    padding: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 40rem;
+    z-index: 2;
+}
+
+/* Newsletter Title */
+.newsletter-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.newsletter-subtitle {
+    font-size: 1rem;
+    color: #e0e7ff; /* Tailwind blue-200 */
+    margin-bottom: 1.5rem;
+}
+
+/* Input Fields */
+.newsletter-input {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 0.375rem;
+    border: none;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Subscribe Button */
+.subscribe-btn {
+    background-color: white;
+    color: #1d4ed8;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.subscribe-btn:hover {
+    transform: scale(1.05);
+}
+
+/* Right-Side Illustration */
+.newsletter-image {
+    width: 22rem;
+    height: auto;
+    margin-left: 3rem; /* Creates space between text and image */
+    transform: translateX(50px); /* Moves image slightly out of section */
+}
+
+
+
